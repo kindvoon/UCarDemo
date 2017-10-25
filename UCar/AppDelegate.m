@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "UCTabBarViewController.h"
+#import "UCTabBarController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -18,11 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        
-    UCTabBarViewController *UCTabVc = [[UCTabBarViewController alloc] init];
+    
+    UCTabBarController *UCTabVc = [[UCTabBarController alloc] init];
     
     self.window.rootViewController = UCTabVc;
-    
     
     return YES;
 }

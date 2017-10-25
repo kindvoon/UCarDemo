@@ -1,26 +1,23 @@
 //
-//  UCTabBarViewController.m
+//  UCTabBarController.m
 //  UCar
 //
-//  Created by Kevin_Whoo on 2017/10/23.
+//  Created by Kevin_Whoo on 2017/10/25.
 //  Copyright © 2017年 kindvoon. All rights reserved.
 //
 
-#import "UCTabBarViewController.h"
+#import "UCTabBarController.h"
 
-@interface UCTabBarViewController ()
+@interface UCTabBarController ()
 
 @end
 
-@implementation UCTabBarViewController
+@implementation UCTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor redColor];
-    
-    
-    
+
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
