@@ -1,23 +1,22 @@
 //
-//  UCTabBarController.m
+//  UCMapViewController.m
 //  UCar
 //
 //  Created by Kevin_Whoo on 2017/10/25.
 //  Copyright © 2017年 kindvoon. All rights reserved.
 //
 
-#import "UCTabBarController.h"
+#import "UCMapViewController.h"
 
-@interface UCTabBarController ()
+@interface UCMapViewController ()
 
 @end
 
-@implementation UCTabBarController
+@implementation UCMapViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

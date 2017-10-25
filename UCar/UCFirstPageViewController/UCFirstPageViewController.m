@@ -1,23 +1,22 @@
 //
-//  UCTabBarController.m
+//  UCFirstPageViewController.m
 //  UCar
 //
 //  Created by Kevin_Whoo on 2017/10/25.
 //  Copyright © 2017年 kindvoon. All rights reserved.
 //
 
-#import "UCTabBarController.h"
+#import "UCFirstPageViewController.h"
 
-@interface UCTabBarController ()
+@interface UCFirstPageViewController ()
 
 @end
 
-@implementation UCTabBarController
+@implementation UCFirstPageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
