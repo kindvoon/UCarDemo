@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "UCTabBarViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,14 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        
-    UCTabBarViewController *UCTabVc = [[UCTabBarViewController alloc] init];
-    
-    self.window.rootViewController = UCTabVc;
-    
-    
+    // Override point for customization after application launch.
     return YES;
 }
 
