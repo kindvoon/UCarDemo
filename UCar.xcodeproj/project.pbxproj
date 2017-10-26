@@ -12,6 +12,7 @@
 		0A7AF0BC1FA0662000E10D76 /* UCFirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7AF0BB1FA0662000E10D76 /* UCFirstPageViewController.m */; };
 		0A7AF0BF1FA0662F00E10D76 /* UCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7AF0BE1FA0662F00E10D76 /* UCMapViewController.m */; };
 		0A7AF0C21FA0663F00E10D76 /* UCMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7AF0C11FA0663F00E10D76 /* UCMineViewController.m */; };
+		0A8EA8A21FA1AE9200B50347 /* UCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EA8A11FA1AE9200B50347 /* UCNavigationController.m */; };
 		0AB727511F9DE96D00CE709B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB727501F9DE96D00CE709B /* AppDelegate.m */; };
 		0AB727541F9DE96D00CE709B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB727531F9DE96D00CE709B /* ViewController.m */; };
 		0AB727571F9DE96D00CE709B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB727551F9DE96D00CE709B /* Main.storyboard */; };
@@ -174,6 +175,8 @@
 		0A7AF1491FA0795100E10D76 /* mineLeftButtonImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineLeftButtonImage@3x.png"; sourceTree = "<group>"; };
 		0A7AF14A1FA0795100E10D76 /* mineTabarNoSelect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineTabarNoSelect@3x.png"; sourceTree = "<group>"; };
 		0A7AF14B1FA0795100E10D76 /* mineTabarSelect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mineTabarSelect@3x.png"; sourceTree = "<group>"; };
+		0A8EA8A01FA1AE9200B50347 /* UCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCNavigationController.h; sourceTree = "<group>"; };
+		0A8EA8A11FA1AE9200B50347 /* UCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCNavigationController.m; sourceTree = "<group>"; };
 		0AB7274C1F9DE96D00CE709B /* UCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB7274F1F9DE96D00CE709B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AB727501F9DE96D00CE709B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -516,6 +519,8 @@
 				0AB7275E1F9DE96D00CE709B /* main.m */,
 				0A7AF0B41FA0641400E10D76 /* UCTabBarController.h */,
 				0A7AF0B51FA0641400E10D76 /* UCTabBarController.m */,
+				0A8EA8A01FA1AE9200B50347 /* UCNavigationController.h */,
+				0A8EA8A11FA1AE9200B50347 /* UCNavigationController.m */,
 				0A7AF10A1FA0795100E10D76 /* Alipay */,
 				0A7AF10D1FA0795100E10D76 /* symbols@3x */,
 				0A7AF0C31FA0795000E10D76 /* symbols@2x */,
@@ -678,6 +683,7 @@
 				0A7AF0C21FA0663F00E10D76 /* UCMineViewController.m in Sources */,
 				0A7AF0B91FA0660B00E10D76 /* UCBatteryViewController.m in Sources */,
 				0AB727541F9DE96D00CE709B /* ViewController.m in Sources */,
+				0A8EA8A21FA1AE9200B50347 /* UCNavigationController.m in Sources */,
 				0AB7275F1F9DE96D00CE709B /* main.m in Sources */,
 				0A7AF0BF1FA0662F00E10D76 /* UCMapViewController.m in Sources */,
 				0AB727511F9DE96D00CE709B /* AppDelegate.m in Sources */,

@@ -11,6 +11,7 @@
 #import "UCMapViewController.h"
 #import "UCMineViewController.h"
 #import "UCBatteryViewController.h"
+#import "UCNavigationController.h"
 
 @interface UCTabBarController ()
 

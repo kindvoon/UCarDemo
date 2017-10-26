@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "UCTabBarController.h"
-
+#import "UCNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,8 +21,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     UCTabBarController *UCTabVc = [[UCTabBarController alloc] init];
+    UCNavigationController *navVc = [[UCNavigationController alloc] initWithRootViewController:UCTabVc];
     
-    self.window.rootViewController = UCTabVc;
+    self.window.rootViewController = navVc;
     
     return YES;
 }
