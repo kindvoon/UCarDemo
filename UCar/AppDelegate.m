@@ -21,10 +21,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     UCTabBarController *UCTabVc = [[UCTabBarController alloc] init];
-    UCNavigationController *navVc = [[UCNavigationController alloc] initWithRootViewController:UCTabVc];
     
-    self.window.rootViewController = navVc;
     
+    self.window.rootViewController = UCTabVc;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -15,8 +15,14 @@
 @implementation UCFirstPageViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor redColor];
+    
+    self.navigationItem.title = @"U车联动";
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
