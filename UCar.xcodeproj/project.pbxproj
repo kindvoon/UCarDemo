@@ -13,6 +13,7 @@
 		0A75CC891FA8583B0059F148 /* UCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A75CC841FA8583B0059F148 /* UCMapViewController.m */; };
 		0A75CC901FA858A20059F148 /* UCFirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A75CC8E1FA858A20059F148 /* UCFirstPageViewController.m */; };
 		0A7AF0B61FA0641400E10D76 /* UCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7AF0B51FA0641400E10D76 /* UCTabBarController.m */; };
+		0A7D6A621FB588FE00E5DB38 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D6A611FB588FE00E5DB38 /* UIBarButtonItem+Extension.m */; };
 		0A8EA8A21FA1AE9200B50347 /* UCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EA8A11FA1AE9200B50347 /* UCNavigationController.m */; };
 		0AB727511F9DE96D00CE709B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB727501F9DE96D00CE709B /* AppDelegate.m */; };
 		0AB727541F9DE96D00CE709B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB727531F9DE96D00CE709B /* ViewController.m */; };
@@ -57,6 +58,8 @@
 		0A7AF0B51FA0641400E10D76 /* UCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCTabBarController.m; sourceTree = "<group>"; };
 		0A7AF10B1FA0795100E10D76 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		0A7AF10C1FA0795100E10D76 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		0A7D6A601FB588FE00E5DB38 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		0A7D6A611FB588FE00E5DB38 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		0A8EA8A01FA1AE9200B50347 /* UCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCNavigationController.h; sourceTree = "<group>"; };
 		0A8EA8A11FA1AE9200B50347 /* UCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCNavigationController.m; sourceTree = "<group>"; };
 		0AB7274C1F9DE96D00CE709B /* UCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +252,8 @@
 				0A08F1EF1FB57EDF00FBBD75 /* UIView+Extension.h */,
 				0A08F1F01FB57EDF00FBBD75 /* UIView+Extension.m */,
 				0A08F1F21FB5808500FBBD75 /* PrefixHeader.pch */,
+				0A7D6A601FB588FE00E5DB38 /* UIBarButtonItem+Extension.h */,
+				0A7D6A611FB588FE00E5DB38 /* UIBarButtonItem+Extension.m */,
 			);
 			path = UCCommon;
 			sourceTree = "<group>";
@@ -453,6 +458,7 @@
 				0A08F1F11FB57EDF00FBBD75 /* UIView+Extension.m in Sources */,
 				0A75CC861FA8583B0059F148 /* UCBatteryViewController.m in Sources */,
 				0A75CC871FA8583B0059F148 /* UCMineViewController.m in Sources */,
+				0A7D6A621FB588FE00E5DB38 /* UIBarButtonItem+Extension.m in Sources */,
 				0A75CC891FA8583B0059F148 /* UCMapViewController.m in Sources */,
 				0A75CC901FA858A20059F148 /* UCFirstPageViewController.m in Sources */,
 				0AB727541F9DE96D00CE709B /* ViewController.m in Sources */,

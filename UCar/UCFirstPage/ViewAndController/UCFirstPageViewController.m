@@ -10,6 +10,7 @@
 
 @interface UCFirstPageViewController ()
 
+
 @end
 
 @implementation UCFirstPageViewController
@@ -20,17 +21,18 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.navigationItem.title = @"U";
-    
-    //添加leftBarButtonItem
-    UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    
-    [leftBtn setBackgroundImage:[UIImage imageNamed:@"poiDetailCalling"] forState:UIControlStateNormal];
-    
-    
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftBtn];
+    [self setUpNav];
     
 }
+
+- (void)setUpNav{
+    
+    self.navigationItem.title = @"U";
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithBackgroundImage:[UIImage imageNamed:@"homeLeftButtonImage"] target:self andAction:@selector(clickLeftBtn)];
+    
+}
+
 
 - (void)clickLeftBtn{
     
