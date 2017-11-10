@@ -18,11 +18,24 @@
     
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    self.navigationItem.title = @"U车联动";
+    self.navigationItem.title = @"U";
     
+    //添加leftBarButtonItem
+    UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [leftBtn setBackgroundImage:[UIImage imageNamed:@"poiDetailCalling"] forState:UIControlStateNormal];
+    
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftBtn];
+    
+}
 
+- (void)clickLeftBtn{
+    
+    NSLog(@"123");
+    
 }
 
 - (void)didReceiveMemoryWarning {
